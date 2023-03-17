@@ -5,8 +5,8 @@
 
 <h3 align="left">Conéctese conmigo:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/ https://www.linkedin.com/in/luis-jaramillo-3588a2174" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile- readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/luis-jaramillo-3588a2174" height="30" width= "40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/luisjaramillo90/" target="blank"><img align="center" src="https://raw.githubusercontent. com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/luisjaramillo90/" height="30" width=" 40" /></a>
+<a href="https://linkedin.com/in/luis-jaramillo-3588a2174" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile- readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/luis-jaramillo-3588a2174" height="30" width= "40" /></a>
+<a href="https://instagram.com/luisjaramillo90/" target="blank"><img align="center" src="https://raw.githubusercontent. com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/luisjaramillo90/" height="30" width=" 40" /></a>
 <a href="https://discord.gg/luisj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain /github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="luisj" height="30" width="40" /></a> </p>
 <
 
