@@ -1,19 +1,86 @@
-<h1 align="center">Hola 👋, soy Luis Jaramillo</h1>
-<h3 align="center">Soy ingeniero electrónico y de telecomunicaciones con pasión por la ciberseguridad</h3>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional - Luis Enrique Jaramillo Montaño</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Luis Enrique Jaramillo Montaño</h1>
+        <p>Especialista en Ciberseguridad y CEO de ISCD</p>
+    </header>
 
-- 🔭 Actualmente soy trabajando en **cursos y analista de tic**
+    <nav>
+        <ul>
+            <li><a href="#inicio" onclick="showTab('inicio')">Inicio</a></li>
+            <li><a href="#acerca" onclick="showTab('acerca')">Acerca de</a></li>
+            <li><a href="#experiencia" onclick="showTab('experiencia')">Experiencia Profesional</a></li>
+            <li><a href="#habilidades" onclick="showTab('habilidades')">Habilidades Técnicas</a></li>
+            <li><a href="#certificaciones" onclick="showTab('certificaciones')">Certificaciones y Cursos</a></li>
+            <li><a href="#contacto" onclick="showTab('contacto')">Contacto</a></li>
+        </ul>
+    </nav>
 
-<h3 align="left">Conéctese conmigo:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/luis-jaramillo-3588a2174" target="blank"><img align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVBOh2ZMZ7BRzSZBIOk9K2dXDV9gZ3PeMZUh8vico&s" alt="https://www.linkedin.com/in/luis-jaramillo-3588a2174" height="30" width= "30" /></a>
+    <main>
+        <section id="inicio" class="tab-content">
+            <h2>Bienvenido</h2>
+            <p>Bienvenido a la página profesional de Luis Enrique Jaramillo Montaño. Aquí encontrarás información sobre mi experiencia en ciberseguridad, educación y proyectos.</p>
+        </section>
 
-  <a href="https://instagram.com/luisjaramillo90/" target="blank"><img align="center" src="https://cdn.pixabay.com/photo/2021/06/15/12/17/instagram-6338401_1280.png" alt="https://www.instagram.com/luisjaramillo90/" height="30" width=" 30" /></a>
-  
+        <section id="acerca" class="tab-content" style="display:none;">
+            <h2>Acerca de</h2>
+            <p>Máster en Seguridad de Tecnologías de la Información y Comunicaciones con especialidad en Redes y Sistemas. Profesional con amplia experiencia en el sector público y privado, comprometido con la seguridad de la información.</p>
+        </section>
 
-<a href="https://discord.gg/luisj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="luisj" height="30" width="30" /></a> </p>
+        <section id="experiencia" class="tab-content" style="display:none;">
+            <h2>Experiencia Profesional</h2>
+            <ul>
+                <li><strong>Coordinador de Telemática</strong> - Municipio de Loja (2019-2022)</li>
+                <li><strong>Docente Ocacional</strong> - Universidad de las Fuerzas Armadas ESPE (2023 - Presente)</li>
+                <!-- Añadir más experiencias aquí -->
+            </ul>
+        </section>
 
-<h3 align="left"> languages and tools:</h3>
-<h3 align="left">- Spanish</h3>
-<h3 align="left">- English</h3>
+        <section id="habilidades" class="tab-content" style="display:none;">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>Evaluación de vulnerabilidades y pruebas de penetración</li>
+                <li>Conocimiento ISO 27001</li>
+                <li>Administración de redes y firewall Fortigate</li>
+                <!-- Añadir más habilidades aquí -->
+            </ul>
+        </section>
 
-<p align="center"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3dMZHVV51klEwe2rRRLScE0ggEnGwnYJAibEVnuyBUMV4LMt-QlCdGLmq799laaaQ1w&usqp=CAU" alt="git" width="50" height="50"/> </a> <a href="https://www.linux.org/ " target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/color/12x/linux.png" alt="linux" width= "50" height="50"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mysql-icon.png" alt="mysql" width="50" height="50"/> </a> <a href="https:// www.python.org" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Sb3zR9wizi2S0DJxe14sELuDTsGAIL6USPFDs7Uueg&s" alt= "pitón" width="50" height="50"/></a>
+        <section id="certificaciones" class="tab-content" style="display:none;">
+            <h2>Certificaciones y Cursos</h2>
+            <ul>
+                <li>AWS Cloud Quest: Cloud Practitioner - Amazon Web Services</li>
+                <li>OT Security Expert - OPSWAT Academy</li>
+                <li>Ethical Hacking Certified Associate - CertJoin</li>
+                <!-- Añadir más certificaciones aquí -->
+            </ul>
+        </section>
+
+        <section id="contacto" class="tab-content" style="display:none;">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través del siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
